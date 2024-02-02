@@ -1,0 +1,16 @@
+.sobremi{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 1200px;
+    top: 8px;
+}
+.proyectos{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 1300px;
+    top: 5px;
+}

@@ -1,0 +1,28 @@
+.amarillo{
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    top: 100px;
+    left: 100px;
+    opacity: 80%;
+}
+.bolita{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.azul{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    bottom: 0px;
+    right: 0px;
+    padding: 20px ;color: green solid;
+}

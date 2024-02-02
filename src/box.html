@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        h1{
+            font-size: 1,5em; /*em es 16px*/
+            font-size: 2vw;
+        }
+            h1>strong{ /*hijo directo*/
+            text-decoration: line-through;
+        }
+            h1 strong{ /*descendiente hijo,nieto...*/
+            color: brown;
+        }
+        header{
+            background-color: aquamarine;
+            width: 100vw;
+            height: 30vh;
+            position: relative;
+            margin-top: 0px;
+            margin-left: 0px;
+        }
+        nav{
+            background-color: darkgoldenrod;
+            width: 20vw;
+            height: 70vh;
+            position: absolute;
+            margin-top: 0vh;
+            margin-left: 0px;
+        }
+        main{
+            background-color: blueviolet;
+            width: 80vw;
+            height: 70vh;
+            position: absolute;
+            margin-top: 0vh;
+            margin-left: 20vw;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Vamos a<p>
+            <strong> maquetar</strong> un poquito
+            </p>
+        </h1>
+        <strong>esto es importante</strong>
+    </header>
+    <nav>
+        menu de NAVEGACION
+    </nav>
+    <main>
+        <p>ESTE ES EL CONTENIDO PRINCIPAL</p> 
+    </main>
+</body>
+</html>

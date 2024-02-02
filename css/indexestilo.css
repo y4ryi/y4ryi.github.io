@@ -1,0 +1,14 @@
+#p2{
+    color: red;
+    background-color: black;
+}
+p{
+    background-color: aqua;
+}
+.clase3{
+    font-style: italic;
+    color: blue;
+}
+.doblelinea{
+    text-decoration-line:line:underline;
+}
